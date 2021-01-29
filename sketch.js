@@ -59,15 +59,16 @@ function draw() {
             }
             if(b3.isTouching(bWhite)&&bWhite.bounceOff(b3)){
                 bWhite.shapeColor="blue";
-                bWhite.velocityY=0;
-                bWhite.velocityX=0;
-                music.stop();
+                bWhite.velocityY=-4;
+                bWhite.velocityX=4;
+                music.play();
+              
             }
             if(b4.isTouching(bWhite)&&bWhite.bounceOff(b4)){
                 bWhite.shapeColor="yellow";
-                bWhite.velocityX=-4;
-                bWhite.velocityY=-4;
-                music.play();
+                bWhite.velocityX=0;
+                bWhite.velocityY=0;
+                  music.stop();
             }
                   
           
