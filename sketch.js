@@ -47,21 +47,24 @@ function draw() {
 
            if(b1.isTouching(bWhite)&&bWhite.bounceOff(b1)){
             bWhite.shapeColor="red";
+               music.play();
             bWhite.velocityX=4;
             bWhite.velocityY=-4;
-            music.play();
+            
             }
             if(b2.isTouching(bWhite)&&bWhite.bounceOff(b2)){
                 bWhite.shapeColor="green";
+                 music.play();
                 bWhite.velocityX=-4;
                 bWhite.velocityY=-4;
-                music.play();
+               
             }
             if(b3.isTouching(bWhite)&&bWhite.bounceOff(b3)){
                 bWhite.shapeColor="blue";
+                 music.play();
                 bWhite.velocityY=-4;
-                bWhite.velocityX=4;
-                music.play();
+                bWhite.velocityX=-4;
+               
               
             }
             if(b4.isTouching(bWhite)&&bWhite.bounceOff(b4)){
