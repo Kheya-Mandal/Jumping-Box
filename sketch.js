@@ -65,7 +65,7 @@ function draw() {
             }
             if(b4.isTouching(bWhite)&&bWhite.bounceOff(b4)){
                 bWhite.shapeColor="yellow";
-                bWhite.velocityX=-4;
+                bWhite.velocityX=4;
                 bWhite.velocityY=4;
                 music.play();
             }
